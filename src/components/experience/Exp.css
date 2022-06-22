@@ -10,12 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-}
-
-.experience__container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+    box-shadow: 5px 10px var(--color-primary);
 }
 
 .experience__container > div h3 {
@@ -35,9 +30,13 @@
     gap: 1rem;
 }
 
-.experience__details-icons {
+.experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.words {
+    color: var(--color-bg);
 }
 
 

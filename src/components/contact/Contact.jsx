@@ -32,23 +32,29 @@ return (
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
+            <div class='words'>
               <h4>Email</h4>
               <h5>ornelasedward@rocketmail.com</h5>
+              </div>
               <a href="mailto:dummyegator@gmail.com" target='_blank'> Send a message </a>
               </article>
 
               <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
+            <div class='words'>
               <h4>Messenger</h4>
               <h5>Edward Ornelas</h5>
+              </div>
               <a href="https://m.me/edward.ornelas.tech/" target='_blank'> Send a message </a>
               </article>
 
               <article className="contact__option">
             <BsLinkedin className='contact__option-icon'/>
+            <div class='words'>
               <h4>LinkedIn</h4>
-              <h5>dummyegator@gmail.com</h5>
-              <a href="mailto: dummyegator@gmail.com" target='_blank'> Send a message </a>
+              <h5>Edward Ornelas</h5>
+              </div>
+              <a href="https://www.linkedin.com/in/edward-ornelas-681b52131/" target='_blank'> Send a message </a>
               </article>
           </div>
    {/*END OF CONTACT OPTIONS*/}
